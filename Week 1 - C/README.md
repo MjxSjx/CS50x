@@ -1,4 +1,4 @@
-# Week 1 introduction C
+# Week 1 - C
 This week covered:
 
 * IDEs (Integrated Development Environments)
