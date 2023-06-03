@@ -132,60 +132,60 @@ C
 These header files are mandatory to run functions aka actions/verbs and bring a library of all available functions that can be understood within that specific header file.
 Tells the complier to load the library of code someone else wrote, so that the complier knows what any function used actually does/means!
 
-Linux commands
+# Linux commands
 
-cd = change directory aka folder
-cp = copy
-ls = list
-mkdir = make new directory aka folder
-mv = move OR rename
-rm = others
-rmdir = remove directory aka folder 
-.. = go back to the parent/previous directory aka folder
-../.. = go back to the grandparent directory aka folder
-cd (then press enter) = will take you all the way back to main default directory aka folder 
+* cd = change directory aka folder
+* cp = copy
+* ls = list
+* mkdir = make new directory aka folder
+* mv = move OR rename
+* rm = others
+* rmdir = remove directory aka folder 
+* .. = go back to the parent/previous directory aka folder
+* ../.. = go back to the grandparent directory aka folder
+* cd (then press enter) = will take you all the way back to main default directory aka folder 
 
 There’s nothing you can’t do in the command line that you can do in the GUI (the left most tab) CLI is much faster too
 
-C data types
+# C data types
 
-bool = yes/true no/false questions
-char = single character
-float = a number with a decimal point aka 1.7
-double = a number with MORE numbers after the decimal point aka 1.79586455
-int = integers aka numbers
-long = integers aka larger numbers (64 bit)
-string = words
-void = function with no input
+* bool = yes/true no/false questions
+* char = single character
+* float = a number with a decimal point aka 1.7
+* double = a number with MORE numbers after the decimal point aka 1.79586455
+* int = integers aka numbers
+* long = integers aka larger numbers (64 bit)
+* string = words
+* void = function with no input
 
-cs50 library of functions
+# cs50 library of functions
 
 The cs50 library exists when you just want to get user inputs
 
-get_~blank~ from the user
-get_char
-get_float 
-get_double 
-get_int 
-get_long 
-get_string
+* get_~blank~ from the user
+* get_char
+* get_float 
+* get_double 
+* get_int 
+* get_long 
+* get_string
 
 format codes
-%c = char
-%f = float
-%i = int
-%li = long
-%s = string
+* %c = char
+* %f = float
+* %i = int
+* %li = long
+* %s = string
 
 Operators
 
-+
--
-*
-/
-% = remainder operator
+* +
+* -
+* *
+* /
+* % = remainder operator
 
-Variables, syntactic sugar
+# Variables, syntactic sugar
 
 Scratch
 orange block “set counter to ____” is a variable 
@@ -232,7 +232,7 @@ int main(void)
 Only the data type long can handle calculations above 2 billion positive or negative
 A long is 64 bits and can count to roughly 8 billion 264 
 
-Conditionals
+# Conditionals
 
 Scratch
 A yellow block aka conditional: If x < y then
@@ -315,7 +315,7 @@ int main(void)
     }
 }
 
-Loops aka while for 
+# Loops aka while for 
 
 Copy and pasting syntax are likely a signal you’re doing something wrong
 #include <cs50.h>
@@ -363,7 +363,7 @@ while (i <= 3)
 
  
 i is the standard variable for counting in C
-A for loop
+# A for loop
 int main(void) 
 {           
     for (int i = 0; i < 3; i++) {initialize the variable; conditional; increment 
@@ -377,7 +377,7 @@ Right now, it requires the data type void bc it does not return anything
 AND it has no input value which also requires the keyword void in the ()
 
 void meow(void) {…}  proper syntax
-Meow.c
+# Meow.c
 The cascade aka the order matters, the fn statement must be on top of the fn call
 #include <stdio.h>
 
@@ -395,7 +395,7 @@ void meow(void)                                         the fn statement is 2
 }  
 This code won’t run & will flag error bc the fn call is before the fn statement
 
-The solution is a “prototype”
+# The solution is a “prototype”
 void meow(void);     
 the syntax is:
 return-value-type title-of-fn (input);
@@ -537,7 +537,7 @@ int main(void)
 }
 REPL ????
 
-Validating User Input do while loop
+# Validating User Input do while loop
 Now we want to ask the user how many ? to print
 A do while loop runs the code/loop first. THEN checks the condition (boolean expression)
 #include <cs50.h>
@@ -570,7 +570,7 @@ Only when the user enters a number > 1 does it stop
 The question/statement gets run 1st
 THEN the conditional is run
 
-Validating User Input: Nesting
+# Validating User Input: Nesting
 
 I want to make a block shape out of #’s 
 #include <cs50.h>
@@ -645,7 +645,7 @@ REPL Size: 3   ###           the code runs down 3 times then repeats 2 more time
                ###                                   creating the desired pattern
                ###
 
-Floating Point Imprecision
+# Floating Point Imprecision
 The fact that although billions of numbers can be used; there is still a limit. The computer is unable to represent all possible real numbers; and that’s called Floating Point Imprecision
 
 float 32bits = a number with up to 6 decimal points at the end aka 1.654321
@@ -669,7 +669,7 @@ int main(void)
 }                                      %f = normally you get 6 digits after the .
 REPL 2/3 = .6666667513515456135153615513213                   this is incorrect
 
-Integer Overflow
+# Integer Overflow
 In C when dividing an integer by an integer, you can only get back an integer, floating point values don’t work; everything after the decimal gets thrown away aka Truncation
 int main(void)   
 {
@@ -687,7 +687,7 @@ int main(void)
 } REPL 2/3 = 0.000000000000000000000 
 REPL 4/3 = 1.00000000000000000                the answer should be 1.33333333 etc
 
-Casting
+# Casting
 Converting to a float using casting, only 1 (float) is needed
 #include <cs50.h>
 #include <stdio.h>
@@ -712,7 +712,7 @@ REPL 4/3 = 1.3333333333333333334
 Jan 1st 1970 was the epoch for computers time counting (they use seconds), on Jan 19th 2038 32-bit computers will run out of bits to count and think its dec 13th 1901
 
 
-Type conversion
+# Type conversion
 Telling the computer to treat an integer as though it’s a floating-point value
 #include <cs50.h>
 #include <stdio.h>
@@ -745,5 +745,3 @@ Dollar amount: 1.23 = 123 pennies
 Dollar amount: 4.20 = 420 pennies
 
 There is always a solution to coding problems
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
