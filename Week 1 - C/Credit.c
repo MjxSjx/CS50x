@@ -216,39 +216,143 @@ int main(void)
     }
 }
 
------------------------------------------------------------------------------------------------------------
+```
+Checksum of: 343456789012346
 
-// ChatGPT version. It doesn't specify which card type.
+Get every other digit, starting with the 2nd to last digit ergo; 4
+4 2 0 8 6 4 4 
+Multiply them by 2
 
-#include <stdio.h>
-#include <stdbool.h>
+ 
+4 * 2 = 8
+2 * 2 = 4
+0 * 2 = 0
+8 * 2 = 16
+6 * 2 = 12
+4 * 2 = 8
+4 * 2 = 8
+ 
 
-bool is_valid_card(long long int card_num) {
-    int sum = 0, digit;
-    bool even = false;
-    while (card_num > 0) {
-        digit = card_num % 10;
-        card_num /= 10;
-        if (even) {
-            digit *= 2;
-            if (digit > 9) {
-                digit = digit / 10 + digit % 10;
-            }
-        }
-        sum += digit;
-        even = !even;
-    }
-    return (sum % 10 == 0);
-}
+Add those products’ digits together and take double digit #’s apart ergo; 16 = 1 + 6
+8 + 4 + 0 + 1 + 6 + 1 + 2 + 8 + 8 = 38
 
-int main() {
-    long long int card_num;
-    printf("Enter a credit card number: ");
-    scanf("%lld", &card_num);
-    if (is_valid_card(card_num)) {
-        printf("Valid credit card number\n");
-    } else {
-        printf("Invalid credit card number\n");
-    }
-    return 0;
-}
+Then, sum the digits that weren’t multiplied by 2
+3 + 3 + 5 + 7 + 9 + 1 + 3 + 6 = 37
+
+Add both sums 38 + 37 = 75 DOESN’T PASS
+Finally, if the total has a last digit of 0, then the CC number is valid
+
+
+Checksum of: 4234567890123456
+
+Get every other digit, starting with the 2nd to last digit ergo; 5
+5 3 1 9 7 5 3 4
+Multiply them by 2
+5 * 2 = 10
+3 * 2 = 6
+1 * 2 = 2
+9 * 2 = 18
+7 * 2 = 14
+5 * 2 = 10
+3 * 2 = 6
+4 * 2 = 8
+
+Add those products’ digits together and take double digit #’s apart ergo; 10 = 1 + 0
+1 + 0 + 6 + 2 + 1 + 8 + 1 + 4 + 1 + 0 + 6 + 8 = 38
+
+Then, sum the digits that weren’t multiplied by 2
+2 + 4 + 6 + 8 + 0 + 2 + 4 + 6 = 32
+
+Add both sums 38 + 32 = 70 PASSES
+Finally, if the total has a last digit of 0, then the CC number is valid
+
+Checksum of: 4111111111111111
+
+Get every other digit, starting with the 2nd to last digit ergo; 1
+1 1 1 1 1 1 1 4
+Multiply them by 2
+1 * 2 = 2
+1 * 2 = 2
+1 * 2 = 2
+1 * 2 = 2
+1 * 2 = 2
+1 * 2 = 2
+1 * 2 = 2
+4 * 2 = 8
+
+Add those products’ digits together
+2 + 2 + 2 + 2 + 2 + 2 + 2 + 8 = 22
+
+Then, sum the digits that weren’t multiplied by 2
+1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 = 8
+
+Add both sums 22 + 8 = 30 PASSES
+Finally, if the total has a last digit of 0, then the CC number is valid
+
+
+Checksum of: 4111111111111113
+
+Get every other digit, starting with the 2nd to last digit ergo; 1
+1 1 1 1 1 1 1 4
+Multiply them by 2
+1 * 2 = 2
+1 * 2 = 2
+1 * 2 = 2
+1 * 2 = 2
+1 * 2 = 2
+1 * 2 = 2
+1 * 2 = 2
+4 * 2 = 8
+
+Add those products’ digits together
+2 + 2 + 2 + 2 + 2 + 2 + 2 + 8 = 22
+
+Then, sum the digits that weren’t multiplied by 2
+1 + 1 + 1 + 1 + 1 + 1 + 1 + 3 = 10
+
+Add both sums 22 + 10 = 32 DOESN’T PASS
+Finally, if the total has a last digit of 0, then the CC number is valid
+Checksum of: 4222222222223
+
+Get every other digit, starting with the 2nd to last digit ergo; 2
+2 2 2 2 2 2 
+Multiply them by 2
+2 * 2 = 4
+2 * 2 = 4
+2 * 2 = 4
+2 * 2 = 4
+2 * 2 = 4
+2 * 2 = 4
+
+Add those products’ digits together
+4 + 4 + 4 + 4 + 4 + 4 = 24
+
+Then, sum the digits that weren’t multiplied by 2
+4 + 2 + 2 + 2 + 2 + 2 + 3 = 17
+
+Add both sums 24 + 17 = 41 DOESN’T PASS
+Finally, if the total has a last digit of 0, then the CC number is valid
+
+
+
+Checksum of: 4222222222222
+
+Get every other digit, starting with the 2nd to last digit ergo; 2
+2 2 2 2 2 2 
+Multiply them by 2
+2 * 2 = 4
+2 * 2 = 4
+2 * 2 = 4
+2 * 2 = 4
+2 * 2 = 4
+2 * 2 = 4
+
+Add those products’ digits together
+4 + 4 + 4 + 4 + 4 + 4 = 24
+
+Then, sum the digits that weren’t multiplied by 2
+4 + 2 + 2 + 2 + 2 + 2 + 2 = 16
+
+Add both sums 24 + 16 = 40 PASSES
+Finally, if the total has a last digit of 0, then the CC number is valid
+```
