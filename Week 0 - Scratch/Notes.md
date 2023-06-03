@@ -11,7 +11,7 @@ All languages use:
  
 Week 0 – Scratch
 
-	Input  □  output
+	Input  □  output
 
 Binary: 0 and 1
 
