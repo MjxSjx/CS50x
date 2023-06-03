@@ -1,5 +1,4 @@
-# CS50x
-The goal of this course is that you fundamentally have learned how to program regardless of the language used
+# The goal of this course is that you fundamentally have learned how to program regardless of the language used
 
 ALL languages use: 
  
@@ -11,6 +10,7 @@ loops: do things again and again
 Logical Operators: And, Or, Not  
  
 Week 0 – Scratch
+
 Input  □  output
 
 Binary: 0 and 1
