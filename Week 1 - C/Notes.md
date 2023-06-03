@@ -1,7 +1,7 @@
-Week 1 – C
+# Week 1 – C
 
 It’s advised to focus on what’s immediately important when learning coding languages. You can’t learn everything all at once. Focus on what’s immediately needed and leave the rest for later. 
-The 3 Pillars of coding
+### The 3 Pillars of coding
 
  
 Correctness
@@ -10,7 +10,7 @@ Style
  
       Your code is correct		   Succinct as possible	  	  Following the proper syntax
 
-The Integrated Development Environment (IDE) aka Text Editor
+## The Integrated Development Environment (IDE) aka Text Editor
 Programs/tools that allow coding languages to operate and be understood for what they are Things like Notepad++ or VS Code. The top half of the IDE is where the code is written
 
  
@@ -28,27 +28,28 @@ int main(void)
 ```
 So, how do I run/execute this code written in C? I need an IDE AND to use
 
-A complier (most languages don’t use them anymore)
+### A complier (most languages don’t use them anymore)
 With C, I need to convert the source code into another language using a complier in the CLI
 
 Source code  □ complier  machine code
                                           The C syntax       algorithm        the binary 
-# Algorithm a step-by-step set of instructions for solving a problem
+## Algorithm a step-by-step set of instructions for solving a problem
 
-# The Command Line Interface (CLI)
+### The Command Line Interface (CLI)
 In VS Code this is the optional bottom section that contains Problems, Output, Debug Console, Terminal, & Jupyter. If it’s hidden go to file section > View tab, inside are all the CLI
  
-# Terminal window
+### Terminal window
 Old school tech that lets you interact with the IDE and run/execute code (via keywords) with a keyboard. There are no OS easy user-friendly clickable things like apps and folders. You manually type in the terminal, and in time its much faster and efficient.  
 
-# GUI – Graphical User Interface
+### GUI – Graphical User Interface
 In VS Code this is the far-left side tab: Explorer where all the folders are, Search, Source Control, Run & Debug, Extensions, Testing, Accounts and lastly, Manage, which is the settings menu
 
-Scratch to C
+# Scratch to C
 
 Scratch
+```
 Say (hello, world) = a function with an input
-
+```
 C
 ```
 #include <stdio.h>
@@ -65,7 +66,10 @@ C uses strings so the words need quotes but MUST be in double quotes
 
 
 Scratch
+```
 ask (What’s your name?) and wait = a function with a return value in (answer)
+```
+
 C
 ```
 string answer = get_string("What's your name?\n ");  
@@ -79,8 +83,11 @@ C uses strings so the words need quotes but MUST be in double quotes
 ; Semi colon at the end to say that line is finished
 
 
-Scratch 
+Scratch
+```
 text to voice or camera motion are extensions that need to be loaded. They are called libraries 
+```
+
 C
 ```
 #include <stdio.h>      extensions are loaded at the top of the script
@@ -153,7 +160,7 @@ C
 These header files are mandatory to run functions aka actions/verbs and bring a library of all available functions that can be understood within that specific header file.
 Tells the complier to load the library of code someone else wrote, so that the complier knows what any function used actually does/means!
 
-# Linux commands
+### Linux commands
 
 * cd = change directory aka folder
 * cp = copy
@@ -168,7 +175,7 @@ Tells the complier to load the library of code someone else wrote, so that the c
 
 There’s nothing you can’t do in the command line that you can do in the GUI (the left most tab) CLI is much faster too
 
-# C data types
+### C data types
 
 * bool = yes/true no/false questions
 * char = single character
@@ -179,7 +186,7 @@ There’s nothing you can’t do in the command line that you can do in the GUI 
 * string = words
 * void = function with no input
 
-# cs50 library of functions
+### cs50 library of functions
 
 The cs50 library exists when you just want to get user inputs
 
@@ -191,14 +198,14 @@ The cs50 library exists when you just want to get user inputs
 * get_long 
 * get_string
 
-format codes
+### format codes
 * %c = char
 * %f = float
 * %i = int
 * %li = long
 * %s = string
 
-Operators
+### Operators
 
 * +
 * -
@@ -206,17 +213,21 @@ Operators
 * /
 * % = remainder operator
 
-# Variables, syntactic sugar
+### Variables, syntactic sugar
 
 Scratch
+```
 orange block “set counter to ____” is a variable 
-
+```
 C
 We need the data type in front of the syntax
 `int counter = 0;`
 
 Scratch
+```
 orange block “change counter by ____” is a variable 
+```
+
 C
 This works because the variable counter is already established
 `counter = counter +1; `
@@ -228,9 +239,9 @@ This works because the variable counter is already established
 
 
 
-Calculator.c
+### Calculator.c
 The keyword code makes a new file automatically 
-code calculator.c                                a new C file has been created 
+`code calculator.c                                a new C file has been created` 
 8 bits = can count to 256 28
 32 bits can count to roughly 4 billion 232
 An int is 32 bits
@@ -257,8 +268,10 @@ A long is 64 bits and can count to roughly 8 billion 264
 # Conditionals
 
 Scratch
+```
 A yellow block aka conditional: If x < y then
 A blue block aka function: Say x is less than y
+```
 C
 ```
 if (x < y) {
@@ -268,12 +281,15 @@ if (x < y) {
 When if is used. The () parenthesis are a boolean expression, a yes/true no/false question
 
 Scratch
+```
 a yellow block aka conditional: if x < y then
 A blue block aka function: say x is less than y
 else if x > y then
 A blue block aka function: say x is greater than y
 else if x = y
 A blue block aka function: say x is equal to y
+```
+
 C
 ```
 if (x < y) {
@@ -283,8 +299,8 @@ if (x < y) {
 } else (x == y) {
     printf("x is equal to y\n");
 }
-$ code points.c more conditionals
 ```
+### $ code points.c more conditionals
 const = variable won’t change no matter what. Program more defensively. 
 
 
@@ -307,7 +323,7 @@ int main(void)
     }
 }
 ```
-Even or ODD using % aka remainder 
+### Even or ODD using % aka remainder 
 ```
 #include <cs50.h>
 #include <stdio.h>
@@ -358,8 +374,10 @@ int main(void)
 ```
 
 Scratch
+```
 yellow block aka loop: forever
 blue block aka function: say meow
+```
 C
 while (true) {}
 When while is used. The () are a boolean expression, a yes/true no/false question
@@ -375,8 +393,10 @@ while (true)
 }}
 ```
 Scratch
+```
 yellow block aka loop: repeat 3 times
 blue block aka function: say meow
+```
 C
 ```
 int i = 0;    initialize the variable
@@ -403,14 +423,14 @@ int main(void)
    printf("meow\n");
 }}
 ```
-Creating new functions in C
+### Creating new functions in C
 meow() is a function I made. 
 
 Right now, it requires the data type void bc it does not return anything
 AND it has no input value which also requires the keyword void in the ()
 
-void meow(void) {…}  proper syntax
-# Meow.c
+`void meow(void) {…} proper syntax`
+### Meow.c
 The cascade aka the order matters, the fn statement must be on top of the fn call
 ```
 #include <stdio.h>
@@ -419,18 +439,18 @@ int main(void)  main is preferred at the top of your file
 {
     for (int i = 0; i < 3; i++) 
     {
-        meow();                     the fn call inserted inside the loop is 1st
+        meow();                     the fn call inserted inside the loop is 1st
     }
 } 
 void is required & states: there is no return and/or input in meow()
-void meow(void)                                         the fn statement is 2nd 
+void meow(void)                                         the fn statement is 2nd 
 {                                             
     printf("meow\n"); 
 }  
 ```
 This code won’t run & will flag error bc the fn call is before the fn statement
 
-# The solution is a “prototype”
+### The solution is a “prototype”
 void meow(void);     
 the syntax is:
 return-value-type title-of-fn (input);
@@ -476,7 +496,7 @@ void meow(int n)                the fn statement with int n being the input n
 }
 ```
 
-Discount.c Making a fn that return values
+### Discount.c Making a fn that return values
 float = a number with a single decimal point aka 1.7
 Discount a product using a percentage. A sale going on.
 ```
@@ -489,12 +509,13 @@ int main(void)
     float sale = regular * .85;
     printf("Sale Price: %.2f\n", sale);      %.2f shows 2 decimals & is the float 
 }                                                                     placeholder
+```
 When int main(void) is called:
 1.	data type float variable regular prompt user to enter “Regular Price: ” & gets entered data
 2.	sale is set to the variable regular user entered value * .85
 3.	Then print out “Sale Price: ”, and variable sale results
 4.	BUT use the placeholder format code %.2f giving results 2 decimal slots
-```
+
 
 discount1.c: Returning a value from a fn
 ```
@@ -547,7 +568,7 @@ When called:
 4.	Then printf runs “Sale Price: ”, and variable sale results
 5.	BUT use the placeholder format code %.2f. Giving it 2 decimal slots
 
-# Mario.c
+### Mario.c
 
 Print 4 ?’s
 This is the lazy way to print 4 question marks “?”
@@ -584,7 +605,7 @@ int main(void)
 }
 REPL ????
 ```
-# Validating User Input do while loop
+### Validating User Input do while loop
 Now we want to ask the user how many ? to print
 A do while loop runs the code/loop first. THEN checks the condition (boolean expression)
 ```
@@ -620,7 +641,7 @@ Only when the user enters a number > 1 does it stop
 The question/statement gets run 1st
 THEN the conditional is run
 
-# Validating User Input: Nesting
+### Validating User Input: Nesting
 
 I want to make a block shape out of #’s 
 ```
@@ -699,7 +720,7 @@ REPL Size: 3   ###           the code runs down 3 times then repeats 2 more time
                ###                                   creating the desired pattern
                ###
 ```
-# Floating Point Imprecision
+### Floating Point Imprecision
 The fact that although billions of numbers can be used; there is still a limit. The computer is unable to represent all possible real numbers; and that’s called Floating Point Imprecision
 
 float 32bits = a number with up to 6 decimal points at the end aka 1.654321
@@ -728,7 +749,7 @@ int main(void)
  REPL 2/3 = .6666667513515456135153615513213                    this is incorrect
 ```
 
-# Integer Overflow
+### Integer Overflow
 In C when dividing an integer by an integer, you can only get back an integer, floating point values don’t work; everything after the decimal gets thrown away aka Truncation
 ```
 int main(void)   
@@ -749,7 +770,7 @@ int main(void)
 REPL 2/3 = 0.000000000000000000000 
 REPL 4/3 = 1.00000000000000000                the answer should be 1.33333333 etc
 ```
-# Casting
+### Casting
 Converting to a float using casting, only 1 (float) is needed
 ```
 #include <cs50.h>
@@ -777,7 +798,7 @@ REPL 4/3 = 1.3333333333333333334
 Jan 1st 1970 was the epoch for computers time counting (they use seconds), on Jan 19th 2038 32-bit computers will run out of bits to count and think its dec 13th 1901
 
 
-# Type conversion
+### Type conversion
 Telling the computer to treat an integer as though it’s a floating-point value
 
 ```
@@ -796,7 +817,7 @@ Dollar amount: 1.23 = 123 pennies
 Dollar amount: 4.20 = 419 pennies ???? ERROR
 ```
 
-The solution:
+### The solution:
 ```
 #include <cs50.h>
 #include <math.h>                            adding the library header of math.h
