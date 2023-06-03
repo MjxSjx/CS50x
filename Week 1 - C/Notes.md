@@ -598,6 +598,7 @@ REPL Size: 3                I’ve made a column of # instead of a brick type sh
 
 
 Putting the new line of code out after the loop gives me a row
+```
 #include <cs50.h>
 #include <stdio.h>
 int main(void)
@@ -617,8 +618,9 @@ int main(void)
 }
 REPL Size: 3               I’ve made a row now of # instead of a brick type shape
 ###
-
+```
 Putting it all together
+```
 int main(void)
 {
     int n;
@@ -641,10 +643,11 @@ int main(void)
         printf("\n");
     }  
 } 
+
 REPL Size: 3   ###           the code runs down 3 times then repeats 2 more times
                ###                                   creating the desired pattern
                ###
-
+```
 # Floating Point Imprecision
 The fact that although billions of numbers can be used; there is still a limit. The computer is unable to represent all possible real numbers; and that’s called Floating Point Imprecision
 
@@ -671,7 +674,7 @@ int main(void)
     printf("%.50f\n", z);              %.50f = I want 50 points after the decimal 
 }                                      %f = normally you get 6 digits after the .
 
-* REPL 2/3 = .6666667513515456135153615513213                   this is incorrect
+ REPL 2/3 = .6666667513515456135153615513213                   this is incorrect
 ```
 
 # Integer Overflow
@@ -691,8 +694,9 @@ int main(void)
     // perform division
     printf("%.20f\n", z);
 } 
-* REPL 2/3 = 0.000000000000000000000 
-* REPL 4/3 = 1.00000000000000000                the answer should be 1.33333333 etc
+
+REPL 2/3 = 0.000000000000000000000 
+REPL 4/3 = 1.00000000000000000                the answer should be 1.33333333 etc
 ```
 # Casting
 Converting to a float using casting, only 1 (float) is needed
