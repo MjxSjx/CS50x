@@ -53,10 +53,10 @@ Each letter is 8 bits
 
 8 bits equals 1 byte
 
-1 kilobyte is thousands of bytes
-1 megabyte is millions of bytes
-1 gigabyte is billions of bytes
-1 terabyte is trillions of bytes
+* 1 kilobyte is thousands of bytes
+* 1 megabyte is millions of bytes
+* 1 gigabyte is billions of bytes
+* 1 terabyte is trillions of bytes
 
 Unicode the ultimate representation of format
 Representing information using binary with different formats
@@ -64,7 +64,7 @@ Representing information using binary with different formats
  A superset of ASCII the mapping of many more bits which go as high as 32 bits to characters in all languages emojis etc 16 bits totals over 65000 combinations of characters.
 At 32 bits the possibilities are over 4 billion combinations 
 
-1111 0000  1001 1111  1001 1000  1011 0111 = the yellow emoji face with a medical mask
+        1111 0000  1001 1111  1001 1000  1011 0111 = the yellow emoji face with a medical mask
 
 Color
 Programs interrupt numbers as colors for example: R = 72 G = 73 B = 33. 
