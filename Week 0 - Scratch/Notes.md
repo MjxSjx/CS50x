@@ -60,7 +60,7 @@ Each letter is 8 bits
 * 1 gigabyte is billions of bytes
 * 1 terabyte is trillions of bytes
 
-Unicode the ultimate representation of format
+# Unicode the ultimate representation of format
 Representing information using binary with different formats
 
  A superset of ASCII the mapping of many more bits which go as high as 32 bits to characters in all languages emojis etc 16 bits totals over 65000 combinations of characters.
