@@ -17,6 +17,7 @@ To find information is one of the most common things computers do
 * O: Capital letter o is used to describe the upper bound “running time” of an algo 
 * Ω: Capital Omega symbol is used to describe the lower bound “running time” of an algor 
 * ϴ: Capital Theta symbol is used to describe when upper & lower are the same “running time”
+
 All are a way of expressing in mathematical terms the efficiency/speed/# of steps, some code is 
 
 ### Common Running Time Equations
