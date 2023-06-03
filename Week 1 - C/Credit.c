@@ -1,4 +1,4 @@
-  # Pendantic breakdown of how the Checksum works 
+                                        Pendantic breakdown of how the Checksum works 
 
 Checksum of: 343456789012346
 
