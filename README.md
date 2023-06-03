@@ -3,24 +3,24 @@ Harvard's CS50x class is a highly regarded computer science course. Known for it
 
 I will post all my assignments per week with final project posted in week 10. 
 
-Week 0 - Scratch - Making a video game
+**Week 0 - Making a video game in Scratch
 
-Week 1 - C - Understanding Binary
+**Week 1 - C 
 
-Week 2 - Arrays
+**Week 2 - Arrays
 
-Week 3 - Algorithms 
+**Week 3 - Algorithms 
 
-Week 4 - Memory
+**Week 4 - Memory
 
-Week 5 - Data Structures
+**Week 5 - Data Structures
 
-Week 6 - Python
+**Week 6 - Python
 
-Week 7 - SQL
+**Week 7 - SQL
 
-Week 8 - HTML, CSS, JavaScript
+**Week 8 - HTML, CSS, JavaScript
 
-Week 9 - Flask
+**Week 9 - Flask
 
-Week 10 - Emoji
+**Week 10 - Emoji
