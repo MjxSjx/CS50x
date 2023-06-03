@@ -19,9 +19,10 @@ Programs/tools that allow coding languages to operate and be understood for what
 .py = files are understood as Python
 .c = files are understood as C 
 ``` 
-#include <stdio.h>                                     printing hello, world in C
+#include <stdio.h>                                    printing hello, world in C
 int main(void)
-{printf("hello, world\n");
+{
+printf("hello, world\n");
 }
 ```
 So, how do I run/execute this code written in C? I need an IDE AND to use
