@@ -23,8 +23,6 @@ Decimal system: digits 0-9 and to power of 10
 
 Binary system: digits 0-1 and to the power of 2
 
-        2^3   2^2   2^1   2^0
-
            2^3 = 8                   2^2 = 4               2^1 = 2              2^0 = 1
         23 = 2⋅2⋅2⋅1 = 8            22 = 2⋅2⋅1 = 4         21 = 2⋅1 = 2          20 = 1⋅1 = 1
  
