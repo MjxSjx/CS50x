@@ -18,11 +18,12 @@ Programs/tools that allow coding languages to operate and be understood for what
 .ts = files are understood as TypeScript
 .py = files are understood as Python
 .c = files are understood as C 
- 
+``` 
 #include <stdio.h>                                     printing hello, world in C
 int main(void)
 {printf("hello, world\n");
 }
+```
 So, how do I run/execute this code written in C? I need an IDE AND to use
 
 A complier (most languages don’t use them anymore)
@@ -30,25 +31,29 @@ With C, I need to convert the source code into another language using a complier
 
 Source code  □ complier  machine code
                                           The C syntax       algorithm        the binary 
-Algorithm a step-by-step set of instructions for solving a problem
+# Algorithm a step-by-step set of instructions for solving a problem
 
-The Command Line Interface (CLI)
+# The Command Line Interface (CLI)
 In VS Code this is the optional bottom section that contains Problems, Output, Debug Console, Terminal, & Jupyter. If it’s hidden go to file section > View tab, inside are all the CLI
  
-Terminal window
+# Terminal window
 Old school tech that lets you interact with the IDE and run/execute code (via keywords) with a keyboard. There are no OS easy user-friendly clickable things like apps and folders. You manually type in the terminal, and in time its much faster and efficient.  
 
-GUI – Graphical User Interface
+# GUI – Graphical User Interface
 In VS Code this is the far-left side tab: Explorer where all the folders are, Search, Source Control, Run & Debug, Extensions, Testing, Accounts and lastly, Manage, which is the settings menu
 
 Scratch to C
+
 Scratch
 Say (hello, world) = a function with an input
+
 C
+```
 #include <stdio.h>                                     
 int main(void)
 {printf("hello, world\n");
 }
+```
 f stands for formatted 
 C uses strings so the words need quotes but MUST be in double quotes
 \n = creates a new line after this syntax, moves the cursor down
@@ -58,7 +63,9 @@ C uses strings so the words need quotes but MUST be in double quotes
 Scratch
 ask (What’s your name?) and wait = a function with a return value in (answer)
 C
+```
 string answer = get_string("What's your name?\n ");  
+```
 string = data type; C needs variables to be defined specifically to what data type they are
 answer = variable aka identifier aka label
 = means assign to _____. Aka set to _____
@@ -71,18 +78,22 @@ C uses strings so the words need quotes but MUST be in double quotes
 Scratch 
 text to voice or camera motion are extensions that need to be loaded. They are called libraries 
 C
+```
 #include <stdio.h>      extensions are loaded at the top of the script
+```
 std = standard
 io = input output
 stdio = standard input output library
 
 If I want to use ANY functions. I then ALSO need to create extensions for those functions	
-#include <cs50.h>     loads the library for func get_string() and others
-#include <stdio.h>    loads the library for ANY standard input/output functions printf() is included in this extension so it can be accessed/used
+```
+#include <cs50.h>     loads the library for func get_string() and others
+#include <stdio.h>    loads the library for ANY standard input/output functions printf() is included in this extension so it can be accessed/used
+
 get_string()is a function Harvard CS50 wrote some time ago. Making it way easier to get inputs from a user. Because the old/normal way is difficult. So Harvard wrote the function titled get_string()BUT the only way it can be used is by using the extension aka library #include <cs50.h> at the top of your script
+```
 
-
-
+```
 #include <cs50.h>  
 #include <stdio.h> 
 
@@ -93,10 +104,11 @@ int main(void)
 }
 What’s your name? REPL      ****User enters = Matt 
 hello, answer REPL         the variable answer isn’t understood to C right now
-
+```
 # Placeholders %
 
 Unfortunately, C does not understand you want the input returned. So, you need a placeholder
+```
 #include <cs50.h>
 #include <stdio.h>
 
@@ -106,7 +118,8 @@ int main(void)
     printf("hello, %s\n", answer);
 }
 What’s your name? REPL       ****User enters = Matt 
-hello, Matt REPL         
+hello, Matt REPL    
+```
 %s is a format code/a variable, which represents a string placeholder. It says, hey computer put a string here eventually.
 
 input  □ function  return value
@@ -119,16 +132,20 @@ Scratch
 when green flag clicked, when ___ pressed down 
 Pieces used to start a program
 C
+```
 int main(void)  the foundation/body of creating C syntax  
 {                                                 think of the  HTML body element
 …STUFF
 }
+```
 
 Scratch 
 automatically runs and loads scripts with no complier needed
 C
-#include <cs50.h>  header file                           like a HTML header but 
-#include <stdio.h> header file                          for the complier to use
+```
+#include <cs50.h>  header file                           like a HTML header but 
+#include <stdio.h> header file                          for the complier to use
+```
 These header files are mandatory to run functions aka actions/verbs and bring a library of all available functions that can be understood within that specific header file.
 Tells the complier to load the library of code someone else wrote, so that the complier knows what any function used actually does/means!
 
@@ -192,18 +209,18 @@ orange block “set counter to ____” is a variable
 
 C
 We need the data type in front of the syntax
-int counter = 0;
+`int counter = 0;`
 
 Scratch
 orange block “change counter by ____” is a variable 
 C
 This works because the variable counter is already established
-counter = counter +1; 
+`counter = counter +1; `
 
 //syntactic sugar saying the same thing with fewer characters
-counter += 1;                       
-counter++;
-++ or - - only works with the value understood as 1
+`counter += 1;`                       
+`counter++;`
+`++ or - - only works with the value understood as 1`
 
 
 
@@ -214,6 +231,7 @@ code calculator.c                                a new C file has been created
 32 bits can count to roughly 4 billion 232
 An int is 32 bits
 BUT because it counts equal negative numbers, anything beyond 2 billion won’t work 
+```
 #include <cs50.h>
 #include <stdio.h>
 int main(void)   
@@ -228,7 +246,7 @@ int main(void)
     long y = get_long("y: ");
     printf("%li\n", x + y);
 }
- 
+```
 Only the data type long can handle calculations above 2 billion positive or negative
 A long is 64 bits and can count to roughly 8 billion 264 
 
@@ -238,9 +256,11 @@ Scratch
 A yellow block aka conditional: If x < y then
 A blue block aka function: Say x is less than y
 C
+```
 if (x < y) {
     printf("x is less than y\n");
 }
+```
 When if is used. The () parenthesis are a boolean expression, a yes/true no/false question
 
 Scratch
@@ -251,6 +271,7 @@ A blue block aka function: say x is greater than y
 else if x = y
 A blue block aka function: say x is equal to y
 C
+```
 if (x < y) {
     printf{"x is less than y\n"};
 } else if (x > y) {
@@ -259,11 +280,12 @@ if (x < y) {
     printf("x is equal to y\n");
 }
 $ code points.c more conditionals
-
+```
 const = variable won’t change no matter what. Program more defensively. 
 
 
 in C const variables are CAPITALIZED
+```
 #include <cs50.h>
 #include <stdio.h>
 
@@ -280,8 +302,9 @@ int main(void)
         printf("You lost the same number of points as me.\n");
     }
 }
-
+```
 Even or ODD using % aka remainder 
+```
 #include <cs50.h>
 #include <stdio.h>
 int main(void)
@@ -297,10 +320,11 @@ else
     printf("odd\n");
 }
 } 
+```
 
-
-Logical Operators: AND (&&), OR (||), NOT (!)
+# Logical Operators: AND (&&), OR (||), NOT (!)
 Char uses single quotes. The question is a string not a char.
+```
 #include <cs50.h>
 #include <stdio.h>
 
@@ -314,10 +338,11 @@ int main(void)
         printf("Not agreed.\n");
     }
 }
-
+```
 # Loops aka while for 
 
 Copy and pasting syntax are likely a signal you’re doing something wrong
+```
 #include <cs50.h>
 #include <stdio.h>
 int main(void) 
@@ -326,6 +351,7 @@ int main(void)
     printf("meow\n");
     printf("meow\n");
 }
+```
 
 Scratch
 yellow block aka loop: forever
@@ -333,6 +359,7 @@ blue block aka function: say meow
 C
 while (true) {}
 When while is used. The () are a boolean expression, a yes/true no/false question
+```
 #include <cs50.h>
 #include <stdio.h>
 
@@ -342,11 +369,12 @@ while (true)
 {
     printf("meow\n");
 }}
+```
 Scratch
 yellow block aka loop: repeat 3 times
 blue block aka function: say meow
 C
- 
+```
 int i = 0;    initialize the variable
 while (i < 3)
 {
@@ -360,16 +388,17 @@ while (i <= 3)
     printf("meow\n");
     i++;
 }
-
+```
  
 i is the standard variable for counting in C
 # A for loop
+```
 int main(void) 
 {           
     for (int i = 0; i < 3; i++) {initialize the variable; conditional; increment 
    printf("meow\n");
 }}
-
+```
 Creating new functions in C
 meow() is a function I made. 
 
@@ -379,6 +408,7 @@ AND it has no input value which also requires the keyword void in the ()
 void meow(void) {…}  proper syntax
 # Meow.c
 The cascade aka the order matters, the fn statement must be on top of the fn call
+```
 #include <stdio.h>
 
 int main(void)  main is preferred at the top of your file
@@ -393,6 +423,7 @@ void meow(void)                                         the fn statement is 2
 {                                             
     printf("meow\n"); 
 }  
+```
 This code won’t run & will flag error bc the fn call is before the fn statement
 
 # The solution is a “prototype”
@@ -401,6 +432,7 @@ the syntax is:
 return-value-type title-of-fn (input);
 
 This shows a fn is down the cascade. In C the order matters, unlike JS
+```
 #include <stdio.h>
 
 void meow(void);    this is the prototype; declaring the fn before it is called
@@ -417,8 +449,9 @@ void meow(void)
 {
     printf("meow\n"); 
 }
-
+```
 If you want the meow fn to be programable a set # of times
+```
 #include <cs50.h>
 #include <stdio.h>
 
@@ -437,12 +470,12 @@ void meow(int n)                the fn statement with int n being the input n
         printf("meow\n");
     }
 }
-
-
+```
 
 Discount.c Making a fn that return values
 float = a number with a single decimal point aka 1.7
 Discount a product using a percentage. A sale going on.
+```
 #include <cs50.h>
 #include <stdio.h>
 
@@ -457,12 +490,14 @@ When int main(void) is called:
 2.	sale is set to the variable regular user entered value * .85
 3.	Then print out “Sale Price: ”, and variable sale results
 4.	BUT use the placeholder format code %.2f giving results 2 decimal slots
+```
 
 discount1.c: Returning a value from a fn
+```
 #include <cs50.h>                  Return value
 #include <stdio.h>
  
-float discount(float price);                                          prototype 
+float discount(float price);                                          prototype 
 
 int main(void)
 {
@@ -475,12 +510,14 @@ float discount(float price)   float is the data type price is the parameter titl
 {
     return price * .85;
 }
+```
 When called:
 1.	data type float variable regular prompt user to enter “Regular Price: ” & gets entered data
 2.	sale is set to call the fn discount(). That parameter retrieves user entered data from the variable regular. That data then goes inside the statement of fn discount() and is used inside ITS para titled float price, that then runs & gets returned after being * by .85
 3.	Then printf runs “Sale Price: ”, and variable sale results
 4.	BUT use the placeholder format code %.2f. Giving it 2 decimal slots
 discount2.c: Now there are 2 parameters and I can manually set the sale % each call
+```
 #include <cs50.h>
 #include <stdio.h>
 Return value, multiple arguments
@@ -498,6 +535,7 @@ float discount(float price, int percentage)
 {
     return price * (100 - percentage) / 100;
 }
+```
 When called:
 1.	data type float variable regular prompt user to enter “Regular Price: ” & gets entered data
 2.	Then percent_off prompts user to enter “Percent Off: ” & gets user entered data
@@ -505,17 +543,21 @@ When called:
 4.	Then printf runs “Sale Price: ”, and variable sale results
 5.	BUT use the placeholder format code %.2f. Giving it 2 decimal slots
 
-Mario.c
+# Mario.c
 
 Print 4 ?’s
 This is the lazy way to print 4 question marks “?”
+```
 #include <stdio.h>
 int main(void)
 {
     printf("????\n");
 }
 REPL ????
+```
+
 This for loop way works but leaves an unwanted $
+```
 #include <stdio.h>
 int main(void)
 {
@@ -525,8 +567,9 @@ int main(void)
     }
 }
 REPL ????$
-
+```
 Here we have exactly what I want, BUT there’s no variable to set the amount to anything
+```
 int main(void)
 {
     for (int i = 0; i < 4; i++) 
@@ -536,10 +579,11 @@ int main(void)
     printf("\n");
 }
 REPL ????
-
+```
 # Validating User Input do while loop
 Now we want to ask the user how many ? to print
 A do while loop runs the code/loop first. THEN checks the condition (boolean expression)
+```
 #include <cs50.h>
 #include <stdio.h>   
 int main(void)
@@ -557,10 +601,12 @@ int main(void)
     }
     printf("\n");
 } 
+
 REPL Width: whatever the user enters for n as long as its greater than 1
 The do runs 1st (that’s what makes it special).
 Run the code: user gets prompt string "Width: " and retrieve user entered data
 That code will continue to loop until the condition of n = > 1 is met
+```
 
 So, if the user enters 0, the do while loop continues to run
 If the user enters -100, the do while loop still continues to run
@@ -573,6 +619,7 @@ THEN the conditional is run
 # Validating User Input: Nesting
 
 I want to make a block shape out of #’s 
+```
 #include <cs50.h>
 #include <stdio.h>
 
@@ -595,7 +642,7 @@ REPL Size: 3                I’ve made a column of # instead of a brick type sh
 #
 #
 #         
-
+```
 
 Putting the new line of code out after the loop gives me a row
 ```
@@ -634,7 +681,7 @@ int main(void)
     for (int i = 0; i < n; i++) 
     {
         // For each column
-        for (int j = 0; j < n; j++)            j is used if i is already in use
+        for (int j = 0; j < n; j++)            j is used if i is already in use
         {
             // Print a brick
             printf("#");
@@ -674,7 +721,7 @@ int main(void)
     printf("%.50f\n", z);              %.50f = I want 50 points after the decimal 
 }                                      %f = normally you get 6 digits after the .
 
- REPL 2/3 = .6666667513515456135153615513213                   this is incorrect
+ REPL 2/3 = .6666667513515456135153615513213                    this is incorrect
 ```
 
 # Integer Overflow
@@ -719,8 +766,8 @@ int main(void)
     printf("%.20f\n", z);
 }
 
-* REPL 2/3 = 0.6666666666666666667
-* REPL 4/3 = 1.3333333333333333334
+REPL 2/3 = 0.6666666666666666667
+REPL 4/3 = 1.3333333333333333334
 ```
 
 Jan 1st 1970 was the epoch for computers time counting (they use seconds), on Jan 19th 2038 32-bit computers will run out of bits to count and think its dec 13th 1901
@@ -740,9 +787,9 @@ int main(void)
     printf("Pennies: %i\n", pennies);
 }
 
-* REPL Dollar amount: 99 = 99 pennies
-* Dollar amount: 1.23 = 123 pennies
-* Dollar amount: 4.20 = 419 pennies ???? ERROR
+REPL Dollar amount: 99 = 99 pennies
+Dollar amount: 1.23 = 123 pennies
+Dollar amount: 4.20 = 419 pennies ???? ERROR
 ```
 
 The solution:
@@ -758,9 +805,9 @@ int main(void)
     printf("Pennies: %i\n", pennies);
 }
 
-* REPL Dollar amount: 99 = 99 pennies
-* Dollar amount: 1.23 = 123 pennies
-* Dollar amount: 4.20 = 420 pennies
+REPL Dollar amount: 99 = 99 pennies
+Dollar amount: 1.23 = 123 pennies
+Dollar amount: 4.20 = 420 pennies
 ```
 
 There is always a solution to coding problems
