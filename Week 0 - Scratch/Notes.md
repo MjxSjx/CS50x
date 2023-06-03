@@ -42,6 +42,7 @@ Binary system: digits 0-1 and to the power of 2
 Binary system covers everything a computer does including letters
 
 Capital A = 65 or in binary 01000001
+
 Capital B = 66 or in binary 01000010
 
 Prefixes are the reason capital A and 65 aka 01000001 can exist as the same binary code is all in the interpretation its being used in aka context dependent of which program is running
