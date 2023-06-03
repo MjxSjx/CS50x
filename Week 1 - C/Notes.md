@@ -715,7 +715,7 @@ Jan 1st 1970 was the epoch for computers time counting (they use seconds), on Ja
 # Type conversion
 Telling the computer to treat an integer as though it’s a floating-point value
 
-``#include <cs50.h>
+```#include <cs50.h>
 #include <stdio.h>
 
 int main(void) 
@@ -743,7 +743,7 @@ int main(void)
 }
 REPL Dollar amount: 99 = 99 pennies
 Dollar amount: 1.23 = 123 pennies 
-Dollar amount: 4.20 = 420 pennies``
+Dollar amount: 4.20 = 420 pennies```
 
 
 There is always a solution to coding problems
