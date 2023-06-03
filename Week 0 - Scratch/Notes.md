@@ -159,15 +159,9 @@ repeat, forever = loops
 
 if = conditionals 
 stored values = variables(orange custom boxes with ovals inside aka inputs/outputs returns)
-Problem set 0:
 
-A car the syntax for ping pong
-Steer with arrow keys left and right up and down
-Avoiding objects moving from top to bottom syntax for ping pong
-A main menu with a start button into the game
-Timer YouTube video 
-High score or most time via cloud
-Multiple stages for created variable 
+
+Problem set 0 ideas:
 
 Starby’s big crazy adventure:
 
@@ -198,4 +192,3 @@ Use arrow directional keys to move. If you get stuck hold the down directional
 8 bits equals 1 byte
 
 There is always a solution to coding problems
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
