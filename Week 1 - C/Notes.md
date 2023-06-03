@@ -649,7 +649,10 @@ REPL Size: 3   ###           the code runs down 3 times then repeats 2 more time
 The fact that although billions of numbers can be used; there is still a limit. The computer is unable to represent all possible real numbers; and that’s called Floating Point Imprecision
 
 float 32bits = a number with up to 6 decimal points at the end aka 1.654321
+
 double 64bits = a number with MORE numbers after the decimal point aka 1.795864555435431
+
+```
 #include <cs50.h>
 #include <stdio.h>
 
@@ -667,10 +670,13 @@ int main(void)
     // perform division
     printf("%.50f\n", z);              %.50f = I want 50 points after the decimal 
 }                                      %f = normally you get 6 digits after the .
-REPL 2/3 = .6666667513515456135153615513213                   this is incorrect
+
+* REPL 2/3 = .6666667513515456135153615513213                   this is incorrect
+```
 
 # Integer Overflow
 In C when dividing an integer by an integer, you can only get back an integer, floating point values don’t work; everything after the decimal gets thrown away aka Truncation
+```
 int main(void)   
 {
     // Prompt user for x
@@ -684,9 +690,10 @@ int main(void)
 
     // perform division
     printf("%.20f\n", z);
-} REPL 2/3 = 0.000000000000000000000 
-REPL 4/3 = 1.00000000000000000                the answer should be 1.33333333 etc
-
+} 
+* REPL 2/3 = 0.000000000000000000000 
+* REPL 4/3 = 1.00000000000000000                the answer should be 1.33333333 etc
+```
 # Casting
 Converting to a float using casting, only 1 (float) is needed
 ```
@@ -707,6 +714,7 @@ int main(void)
     // perform division
     printf("%.20f\n", z);
 }
+
 * REPL 2/3 = 0.6666666666666666667
 * REPL 4/3 = 1.3333333333333333334
 ```
@@ -727,6 +735,7 @@ int main(void)
     int pennies = amount * 100;
     printf("Pennies: %i\n", pennies);
 }
+
 * REPL Dollar amount: 99 = 99 pennies
 * Dollar amount: 1.23 = 123 pennies
 * Dollar amount: 4.20 = 419 pennies ???? ERROR
