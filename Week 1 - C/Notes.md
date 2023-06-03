@@ -689,6 +689,7 @@ REPL 4/3 = 1.00000000000000000                the answer should be 1.33333333 et
 
 # Casting
 Converting to a float using casting, only 1 (float) is needed
+```
 #include <cs50.h>
 #include <stdio.h>
 
@@ -706,8 +707,9 @@ int main(void)
     // perform division
     printf("%.20f\n", z);
 }
-REPL 2/3 = 0.6666666666666666667
-REPL 4/3 = 1.3333333333333333334
+* REPL 2/3 = 0.6666666666666666667
+* REPL 4/3 = 1.3333333333333333334
+```
 
 Jan 1st 1970 was the epoch for computers time counting (they use seconds), on Jan 19th 2038 32-bit computers will run out of bits to count and think its dec 13th 1901
 
@@ -728,7 +730,7 @@ int main(void)
 * REPL Dollar amount: 99 = 99 pennies
 * Dollar amount: 1.23 = 123 pennies
 * Dollar amount: 4.20 = 419 pennies ???? ERROR
-
+```
 
 The solution:
 ```
