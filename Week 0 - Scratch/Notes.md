@@ -1,6 +1,6 @@
 # The goal of this course is that you fundamentally have learned how to program regardless of the language used
 
-ALL languages use: 
+All languages use: 
  
 Functions: actions of inputs & outputs
 Conditionals: forks in the road
