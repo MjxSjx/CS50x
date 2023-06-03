@@ -80,8 +80,7 @@ Computer programs interrupt sounds with binary as well using specific formats fo
 
 
 
-Algorithm 
-Algorithm: A step-by-step set of instructions for solving a problem
+## Algorithm: A step-by-step set of instructions for solving a problem
 
 It’s all input, “some process”, to then produce an output
 Input  □  output
