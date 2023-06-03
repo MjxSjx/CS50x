@@ -1,4 +1,4 @@
-Week 2 - Arrays
+# Week 2 - Arrays
 This week covered:
 * make
 * clang
