@@ -3,7 +3,7 @@
 ### Introduction
 We use C but in reality, the only thing the computer understands is Binary (0-1)
 
-### make
+## make
 Up until now we’ve been using “make” as a way to compile (format) our code into action
 ```
 #include <stdio.h>
@@ -23,7 +23,7 @@ It turns out that make doesn’t actually compile, it does help MAKE programs ru
 + Complier: a program that coverts source code (what we write) into machine code (aka binary)
 Make runs a command, automatically in C called “clang”  
 
-### clang = C language aka THE complier
+## clang = C language aka THE complier
 Using the compiler manually with clang: EDIT only works with barebones syntax no get_ fns
 ```
 $ cd hello                                // the folder name is hello
@@ -44,7 +44,7 @@ CLA: are words or numbers that you type at your prompt after the name of a progr
 hello/ $ clang -o hello hello.c -lcs50 // -lcs50 is for fn’s like get_string
 ```
 Now the program will be titled hello.c. Thankfully, we have “make” to avoid all this
-### Compiling
+## Compiling
 It is worth the time to understand what is actually happening when “make” is used, how much automation is going on. So that when you run these commands it’s not magic. You understand the process from the bottom up when you’re compiling
 
 It turns out when you’re taking your source code and changing it into binary, then back again aka “compiling your code with make”, there are actually 4 steps happening
@@ -59,7 +59,7 @@ All told I’m using 3 codes
 3.	The other header file #include<stdio.h> which too is actually stdio.c
 4. Linking = links all the codes (all 3) together into one file so it can compile properly
 
-### Debugging
+## Debugging
 Bugs in code happen at all skill levels. There are however techniques & tools that coders use
 	
 ### buggy.c
@@ -180,7 +180,7 @@ int get_negative_int(void)                    the fn Step Into is connecting 
 }
 ```
 
-Types
+### Types
 Refers to data types that C uses: int, long, float, double, bool, char, string etc. What is actually happening when we manipulate bits as in int vs a char or a string for example. 
 
 * 1 byte = 8 bits
