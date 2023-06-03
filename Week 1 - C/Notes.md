@@ -735,13 +735,13 @@ int main(void)
 The solution:
 ```
 #include <cs50.h>
-#include <math.h>               &#8592 adding the library header of math.h
+#include <math.h>                            adding the library header of math.h
 #include <stdio.h>
 
 int main(void) 
 {
     float amount = get_float("Dollar amount: ");
-    int pennies = round(amount * 100);       &#x2190; the method round()
+    int pennies = round(amount * 100);                       the method round()
     printf("Pennies: %i\n", pennies);
 }
 
