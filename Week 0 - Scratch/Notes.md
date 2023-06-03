@@ -123,7 +123,7 @@ All of this was harnessing human intuition, expressing them into an algorithm, t
 
 A way of expressing yourself in any language succinctly, correctly and getting your algorithm (step-by-step for solving a problem) across 
 
-Core pieces to algorithms 
+## Core pieces to algorithms 
 
 Functions = actions/verbs that solve some smaller problem, they tend to do specific tasks
 
