@@ -119,7 +119,7 @@ All of this was harnessing human intuition, expressing them into an algorithm, t
 
 
 
-Pseudocode
+# Pseudocode
 
 A way of expressing yourself in any language succinctly, correctly and getting your algorithm (step-by-step for solving a problem) across 
 
