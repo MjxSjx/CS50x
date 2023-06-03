@@ -94,7 +94,7 @@ int main(void)
 What’s your name? REPL      ****User enters = Matt 
 hello, answer REPL         the variable answer isn’t understood to C right now
 
-Placeholders %
+# Placeholders %
 
 Unfortunately, C does not understand you want the input returned. So, you need a placeholder
 #include <cs50.h>
