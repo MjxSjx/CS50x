@@ -21,13 +21,13 @@ All are a way of expressing in mathematical terms the efficiency/speed/# of step
 
 ### Common Running Time Equations
 The most familiar Big O, Ω and, ϴ notations
- 
+``` 
 O(n2) Ω(n2) ϴ(n2) 
 O (n log n) Ω(n log n) ϴ(n log n)
 O (n) Ω(n) ϴ(n)
 O (log n) Ω(log n) ϴ(log n)
 O (1) Ω(1) ϴ(1)
- 
+``` 
 
 ### Asymptotic Notation
 Big O describes how many steps some code has at worst aka worst-case scenario
