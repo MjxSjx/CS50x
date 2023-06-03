@@ -114,7 +114,7 @@ int calculate_pennies(int cents)
 
 --------------------------------------------------------------------------------------------------------------------
 
-// ChatGPT version it works but the complier says it can't compile when asking for a check50. Yet it gives proper answer
+// Alt version; it works but the complier says it can't compile when asking for a check50. Yet it gives proper answer
 
 #include <cs50.h>
 #include <stdio.h>
