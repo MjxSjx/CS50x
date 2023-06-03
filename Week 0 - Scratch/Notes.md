@@ -9,7 +9,7 @@ All languages use:
 * Loops: do things again and again
 * Logical Operators: And, Or, Not  
  
-Week 0 – Scratch
+# Week 0 – Scratch
 
 	Input  □  output
 
@@ -47,7 +47,7 @@ Capital B = 66 or in binary 01000010
 
 Prefixes are the reason capital A and 65 aka 01000001 can exist as the same binary code is all in the interpretation its being used in aka context dependent of which program is running
 
-# ASCII American Standard Code for information interchange
+## ASCII American Standard Code for information interchange
 
         72 73 33                                                                 1111 1111 = 255 in binary 
         H   I    ! 
@@ -60,7 +60,7 @@ Each letter is 8 bits
 * 1 gigabyte is billions of bytes
 * 1 terabyte is trillions of bytes
 
-# Unicode the ultimate representation of format
+## Unicode the ultimate representation of format
 Representing information using binary with different formats
 
  A superset of ASCII the mapping of many more bits which go as high as 32 bits to characters in all languages emojis etc 16 bits totals over 65000 combinations of characters.
@@ -68,16 +68,16 @@ At 32 bits the possibilities are over 4 billion combinations
 
         1111 0000  1001 1111  1001 1000  1011 0111 = the yellow emoji face with a medical mask
 
-Color
+### Color
 Programs interrupt numbers as colors for example: R = 72 G = 73 B = 33. 
 
-Images
+### Images
 Pixels are assigned numbers in specific pixel locations to create what we see as images. On average 24 bits are being used per pixel to represent the necessary color
 
-Videos
+### Videos
 How is a video represented only using binary (zeros and ones)? Formats; specific applications that utilize binary numbers to convey images at 24-30-60-120 per second creating what we see as motion 
 
-Music
+### Music
 Computer programs interrupt sounds with binary as well using specific formats for the binary information the note, the tempo, the duration of note and the intensity the note is being played. All with bits
 
 
@@ -93,7 +93,7 @@ When you boil all this down, everything is done with just zeros and ones (binary
 
 Using an algorithm 
 
-finding “John Harvard” phone # via contacts app
+### finding “John Harvard” phone # via contacts app
 An example of an algorithm is your phones contacts app. Your contacts are listed from A to Z, based on first name and or last name, and listed from top to bottom. 
 To find John: 
 Step 1. Open the app
@@ -102,7 +102,7 @@ Step 3. Find John Harvard
 This is a step-by-step process an ‘algorithm’
 
 
-finding “John Harvard” phone # via a phonebook
+### finding “John Harvard” phone # via a phonebook
 Another example of an algorithm is a tactile phonebook. Phone numbers are listed from A to Z, based on first name or last name, and listed from left to right per page.
 To find John:
 Step 1. Open the book
@@ -110,7 +110,7 @@ Step 2. Work towards at the H section, if not found jump to the J section
 Step 3. Find John Harvard 
 This too is a step-by-step approach an ‘algorithm’
 
-Without the algorithm you would flip/scroll through every page to find John
+*Without the algorithm you would flip/scroll through every page to find John*
 
 Both algorithms divide the problem into simple step-by-step instructions making the problem smaller, efficient
 
@@ -134,7 +134,7 @@ Boolean Expressions = Questions that have yes/true or no/false answers
 Loops = Some kind of cycle, some kind of directive that tells us to do something again and again
 
 
-Scratch
+# Scratch
 A graphical programing language from MIT
 
 Drag and drop things that look like puzzle pieces that interlock together without the distraction of brackets, parenthesis, semicolons, quotes etc.
@@ -146,7 +146,7 @@ A step-by-step set of instructions for solving a problem
  Input  □  output
 say is a function
 Hello, world  say  scratch says Hello, world
-
+```
 Say, ask = function 
 
 The white ovals = parameters/arguments
@@ -157,7 +157,7 @@ repeat, forever = loops
 
 if = conditionals 
 stored values = variables(orange custom boxes with ovals inside aka inputs/outputs returns)
-
+```
 
 Problem set 0 ideas:
 
