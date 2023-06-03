@@ -23,7 +23,7 @@ Programs/tools that allow coding languages to operate and be understood for what
 
 int main(void)
 {
- printf("hello, world\n");
+  printf("hello, world\n");
 }
 ```
 So, how do I run/execute this code written in C? I need an IDE AND to use
@@ -55,7 +55,7 @@ C
 
 int main(void)
 {
- printf("hello, world\n");
+  printf("hello, world\n");
 }
 ```
 f stands for formatted 
