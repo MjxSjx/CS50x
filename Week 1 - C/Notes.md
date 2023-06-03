@@ -133,8 +133,8 @@ when green flag clicked, when ___ pressed down
 Pieces used to start a program
 C
 ```
-int main(void)  the foundation/body of creating C syntax  
-{                                                 think of the  HTML body element
+int main(void)  the foundation of creating C syntax  
+{                                               
 …STUFF
 }
 ```
