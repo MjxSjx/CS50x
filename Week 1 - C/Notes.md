@@ -725,12 +725,9 @@ int main(void)
     int pennies = amount * 100;
     printf("Pennies: %i\n", pennies);
 }
-```
-REPL Dollar amount: 99 = 99 pennies
-
-Dollar amount: 1.23 = 123 pennies
-
-Dollar amount: 4.20 = 419 pennies ???? ERROR
+* REPL Dollar amount: 99 = 99 pennies
+* Dollar amount: 1.23 = 123 pennies
+* Dollar amount: 4.20 = 419 pennies ???? ERROR
 
 
 The solution:
@@ -738,19 +735,16 @@ The solution:
 #include <cs50.h>
 #include <math.h>                          
 #include <stdio.h>
+
 int main(void) 
 {
     float amount = get_float("Dollar amount: ");
     int pennies = round(amount * 100);                      
     printf("Pennies: %i\n", pennies);
 }
+* REPL Dollar amount: 99 = 99 pennies
+* Dollar amount: 1.23 = 123 pennies
+* Dollar amount: 4.20 = 420 pennies
 ```
-
-REPL Dollar amount: 99 = 99 pennies
-
-Dollar amount: 1.23 = 123 pennies 
-
-Dollar amount: 4.20 = 420 pennies
-
 
 There is always a solution to coding problems
