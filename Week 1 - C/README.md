@@ -1,5 +1,6 @@
 # Week 1 introduction C
 This week covered:
+
 IDEs 
 
 Compliers
