@@ -2,12 +2,12 @@
 
 All languages use: 
  
-Functions: actions of inputs & outputs
-Conditionals: forks in the road
-variables: store values
-Boolean expressions: yes/true no/false ?’s
-loops: do things again and again
-Logical Operators: And, Or, Not  
+* Functions: actions of inputs & outputs
+* Conditionals: forks in the road
+* Variables: store values
+* Boolean expressions: yes/true no/false ?’s
+* Loops: do things again and again
+* Logical Operators: And, Or, Not  
  
 Week 0 – Scratch
 
