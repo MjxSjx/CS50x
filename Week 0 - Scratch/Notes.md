@@ -47,8 +47,8 @@ Capital B = 66 or in binary 01000010
 Prefixes are the reason capital A and 65 aka 01000001 can exist as the same binary code is all in the interpretation its being used in aka context dependent of which program is running
 ASCII American Standard Code for information interchange
 
-72 73 33                                                                 1111 1111 = 255 in binary 
-H   I    ! 
+        72 73 33                                                                 1111 1111 = 255 in binary 
+        H   I    ! 
 Each letter is 8 bits 
 
 8 bits equals 1 byte
