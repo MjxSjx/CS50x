@@ -174,7 +174,9 @@ REPL 0x561f25207004 // the location of the variable s
 // All neatly in a row in memory incremented 1 slot at a time 
 ```
 A single & operator = Find the Address
+
 A single * operator = go to/point that address aka dereference 
+
 A single * operator followed by & = Store that address 
 ```
 typedef struct // data structures. Creating my own data type
