@@ -1,5 +1,5 @@
 # Week 5 - Data Structures
-This week covered
+This week covered:
 
 * Stack
 * Queue 
