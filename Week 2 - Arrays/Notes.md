@@ -700,6 +700,5 @@ Next problem set is counting how many words are used to rate what grade level th
 
 ### Cryptography
 Scrambling information in such a way that you can hide the contents of a message from someone who might otherwise intercept it. Aka make it difficult to interpret “encrypt it” for someone to decrypt it. A = B, B = C, C = D etc that is an algorithm and the key is how you solve it.
-THIS WAS CS50
 
 There is always a solution to coding problems
