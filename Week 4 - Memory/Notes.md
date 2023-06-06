@@ -101,7 +101,7 @@ A worthwhile fact is pointers take up 8 bytes of memory because they are usable 
 ### Assignment Operator
 If you reference a variable that has a pointer on it. It does not make an additional pointer
 
-Strings in Memory
+### Strings in Memory
 ```
 // Strings in Memory
 
