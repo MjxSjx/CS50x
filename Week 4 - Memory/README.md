@@ -19,4 +19,4 @@ This week covered:
 * Machine code
 * Pointer Helpers
 * scanf()
-* FILE
+* file input/output
