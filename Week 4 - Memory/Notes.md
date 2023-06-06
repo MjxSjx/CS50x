@@ -494,7 +494,7 @@ x: 50
 x: 50
 ```
 
-File Input/Output
+## File Input/Output
 ```
 // Saves names and numbers to a CSV file
 
@@ -514,6 +514,4 @@ int main(void)
     fclose(file); // a fn to close a file in C
 }
 ```
-This was CS50
-
 There is always a solution to coding problems
