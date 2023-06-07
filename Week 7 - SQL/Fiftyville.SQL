@@ -26,7 +26,6 @@ SELECT caller, name FROM phone_calls, people
     WHERE people.phone_number = caller
     AND day = 28 AND month = 07 AND year = 2021 AND duration < 60
     ORDER BY phone_calls.id;
-
 SELECT receiver, name FROM phone_calls, people
     WHERE people.phone_number = receiver
     AND day = 28 AND month = 07 AND year = 2021 AND duration < 60
