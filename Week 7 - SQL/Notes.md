@@ -97,14 +97,14 @@ SELECT language FROM favorites;
 ## Fns in SQL
 Here is a list of some of the most useful fns in SQL
  
-•	AVG
-•	COUNT
-•	DISTINCT gives back just uniques
-•	LOWER
-•	MAX
-•	MIN
-•	UPPER
-•	…
+* AVG
+* COUNT
+* DISTINCT gives back just uniques
+* LOWER
+* MAX
+* MIN
+* UPPER
+* …
  
 ### give me the total count of the columns in my file
 ```
