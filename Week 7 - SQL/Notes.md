@@ -56,19 +56,18 @@ Now, we’re graduating from mere flat file databases like text files or binary 
 A popular way of storing lots of data. Google, Twitter, FB and so on use them to store some of their data at scale. What’s nice is that they’re similar to the spreadsheets with which most are familiar with. 
 	
 A relational database is going to store, all its data in row and columns called tables. SQL does just 4 basic things. CRUD
-```
-•	Creating data aka insert
-•	Reading data aka select
-•	Updating data aka update
-•	Deleting data aka drop 
-```
+
+* Creating data aka insert
+* Reading data aka select
+* Updating data aka update
+* Deleting data aka drop 
+
 Create a basic table like this
 ```
 CREATE TABLE table (column type, ...);
 ```
-•	table = the title 
-
-•	column type is where you list your headers of the table
+* table = the title 
+* column type is where you list your headers of the table
 
 ### creating a new empty database using a program called sqlite3 
 ```
@@ -86,9 +85,9 @@ The most common and useful syntax is SELECT. Everything in all caps is a SQL key
 ```
 SELECT columns FROM table; -- aka read data
 ```
-•	Again, table is the title of the table I’m reading from.
-•	SELECT * is saying give me every column without me even knowing what they’re called.
-•	What was 15 lines of code in Python, is now 1 line in SQL. WOW.
+* Again, table is the title of the table I’m reading from.
+* SELECT * is saying give me every column without me even knowing what they’re called.
+* What was 15 lines of code in Python, is now 1 line in SQL. WOW.
 
 An actual use case from what we were just doing in Python. Although, I don’t have the .csv file or data table loaded. 
 ```
