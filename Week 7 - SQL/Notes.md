@@ -181,8 +181,8 @@ In the world of SQLite, there’s these 5 data types:
 
 ## Constraints
 Not data types but important
-•	NOT NULL – makes sure NULL is never applied 
-•	UNIQUE – makes sure every row in a column is always unique aka whatever value is being stored is always unique
+* NOT NULL – makes sure NULL is never applied 
+* UNIQUE – makes sure every row in a column is always unique aka whatever value is being stored is always unique
 
 ## Data types: PRIMARY KEY, FOREIGN KEY, Relationships
 PRIMARY KEY (A column): The database will use the ID as the unique identifier. Similar to UNIQUE making sure that this column is uniquely identifying your database will treat special. 
