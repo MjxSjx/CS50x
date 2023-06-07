@@ -15,7 +15,7 @@ Hello world in Python
 ```
 print("hello, world")
 ```
-### Python is less cryptic/archaic than C
+Python is less cryptic/archaic than C
 
 ## Compilation, Interpretation
 In C you must compile, this is not the case in Python. Python uses an “interpreter”
