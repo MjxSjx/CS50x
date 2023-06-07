@@ -437,10 +437,10 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 ```
-favorites.html (Continued)
+### favorites.html (Continued)
 That favorites data from last week that keeps getting brought up. Now, has CSS and JS applied to it and is clean, colorful, and interactive. You can use up and down arrows at the top of each list and choose highest or lowest option; meaning highest time or lowest time. highest letter or lowest letter and on. 
 
-Background
+### Background
 Demonstrating the power of JS and CSS in HTML all combined. addEventListener() and ‘click’ is mainly on display. The webpage file loads to a white screen with 3 buttons R, G, and B. If you click a button the color of the background changes to either Red, Green, or Blue. Colt Steele did a similar thing.  
 
 There is always a solution to coding problems
