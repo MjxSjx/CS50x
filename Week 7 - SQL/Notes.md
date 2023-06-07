@@ -120,12 +120,12 @@ SELECT COUNT(DISTINCT(language)) FROM favorites;
 
 Here is a list of some more advanced fns in SQL
  
-•	WHERE filters data
-•	LIKE aka to an = sign
-•	ORDER BY aka sorting
-•	LIMIT sets a limit to rows
-•	GROUP BY is better explained in example form
-•	…
+* WHERE filters data
+* LIKE aka to an = sign
+* ORDER BY aka sorting
+* LIMIT sets a limit to rows
+* GROUP BY is better explained in example form
+* …
 
 ### give me just the amount of rows for C
 ```
