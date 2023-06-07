@@ -70,7 +70,7 @@ CREATE TABLE table (column type, ...);
 
 •	column type is where you list your headers of the table
 
-creating a new empty database using a program called sqlite3 
+### creating a new empty database using a program called sqlite3 
 ```
 sqlite3 favorites.db 
 
@@ -106,15 +106,15 @@ Here is a list of some of the most useful fns in SQL
 •	UPPER
 •	…
  
-give me the total count of the columns in my file
+### give me the total count of the columns in my file
 ```
 SELECT COUNT(*) FROM favorites;
 ``` 
-give me all the choices selected in a small list which only prints unique entries
+### give me all the choices selected in a small list which only prints unique entries
 ```
 SELECT DISTINCT(language) FROM favorites;
 ```
-give me back a physical number of the total amount of choices selected
+### give me back a physical number of the total amount of choices selected
 ```
 SELECT COUNT(DISTINCT(language)) FROM favorites;
 ```
@@ -128,27 +128,27 @@ Here is a list of some more advanced fns in SQL
 •	GROUP BY is better explained in example form
 •	…
 
-give me just the amount of rows for C
+### give me just the amount of rows for C
 ```
 SELECT COUNT(*) FROM favorites WHERE language = 'C';
 ```
-even more granular
+### even more granular
 ```
 SELECT COUNT(*) FROM favorites WHERE language = 'C'; AND problem = 'Mario';
 ```
-give me a two temporary cols  where 1st col is lang and 2nd is the count thereof data set
+### give me a two temporary cols  where 1st col is lang and 2nd is the count thereof data set
 ```
 SELECT language, COUNT(*) FROM favorites GROUP BY language;
 ```
-creating data aka using the keyword insert
+### creating data aka using the keyword insert
 ```
 INSERT INTO table (column, ...) VALUES(value, ...);
 ```
-using the UPDATE keyword aka command, to update a column
+### using the UPDATE keyword aka command, to update a column
 ```
 UPDATE table SET column = value WHERE condition;
 ```
-using the keyword DELETE removes rows specifically 
+#### using the keyword DELETE removes rows specifically 
 ```
 DELETE FROM table WHERE condition;
 ```
