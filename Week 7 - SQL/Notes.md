@@ -2,7 +2,7 @@
 Algorithm: A step-by-step set of instructions for solving a problem
 
 ### Introduction
-	It’s time for data. Lots and lots of data. 
+It’s time for data. Lots and lots of data. 
 
 ## SQL – Structured Query Language (sequel)
 A language designed to handle data “querying databases and storing data” ; “it does less than C or Python, but does certain things really well.” 
