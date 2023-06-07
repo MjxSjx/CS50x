@@ -1,17 +1,14 @@
 import csv
 import sys
 
-
 def main():
 
     if len(sys.argv) != 3:
         sys.exit("Usage: python dna.py data.csv sequence.txt")
 
-    # initiate a "sequences" list to save all subsequences from the csv file
-    # located at index[0], row[1:]
+    # initiate a "sequences" list save all subsequences
     sequences = []
-    # initiate a "dnafile" dictionary to save all sequence counts
-    # key: name; value: sequence counts
+    # initiate a "dnafile" dictionary 
     dnafile = {}
     with open(sys.argv[1]) as dictfile:
         for index, row in enumerate(dictfile):
@@ -24,12 +21,10 @@ def main():
     with open(sys.argv[2], "r") as txtfile:
         sqcfile = txtfile.read().replace('\n', '')
 
-    # initiate a "result" list to save results from "longest_match"
-    # Counting each subsequences in the "sequences" list
+    # initiate a "result" list to save results
     result = [longest_match(sqcfile, subsequence) for subsequence in sequences]
 
-    # compares "result" list against dnafile{} values
-    # leave the program if there is a match, and print key(name) in dnafile{}
+    # leave the program if there is a match, and print 
     for s in dnafile:
         count = 0
         for j in range(len(dnafile[s])):
@@ -38,7 +33,6 @@ def main():
         if count == len(sequences):
             return print(s)
 
-    # otherwise, no match
     return print("No match")
 
 
@@ -50,15 +44,13 @@ def longest_match(sequence, subsequence):
     subsequence_length = len(subsequence)
     sequence_length = len(sequence)
 
-    # Check each character in sequence for most consecutive runs of subsequence
+    # Check each character in sequence 
     for i in range(sequence_length):
 
         # Initialize count of consecutive runs
         count = 0
 
-        # Check for a subsequence match in a "substring" (a subset of characters) within sequence
-        # If a match, move substring to next potential match in sequence
-        # Continue moving substring and checking for matches until out of consecutive matches
+        # If match, move substring 
         while True:
 
             # Adjust substring start and end
@@ -73,11 +65,9 @@ def longest_match(sequence, subsequence):
             else:
                 break
 
-        # Update most consecutive matches found
+        # Update matches 
         longest_run = max(longest_run, count)
 
-    # After checking for runs at each character in seqeuence, return longest run found
     return longest_run
-
 
 main()
