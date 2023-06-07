@@ -67,6 +67,7 @@ Create a basic table like this
 CREATE TABLE table (column type, ...);
 ```
 •	table = the title 
+
 •	column type is where you list your headers of the table
 
 creating a new empty database using a program called sqlite3 
