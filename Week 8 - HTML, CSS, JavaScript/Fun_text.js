@@ -1,6 +1,6 @@
 const inputBox = document.getElementById('input-box');
 const submitBtn = document.getElementById('submit-btn');
-
+ 
 submitBtn.addEventListener('click', processInput);
 
 inputBox.addEventListener('keydown', function(event) {
