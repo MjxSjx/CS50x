@@ -171,13 +171,13 @@ Using separate tables for: people, genres, ratings, writers allow our main table
 
 ## Data Types
 In the world of SQLite, there’s these 5 data types:
-```
-•	BLOB – Binary large object
-•	INTEGER – an int
-•	NUMERIC – a catchall for nums that are formatted specifically like dates and time
-•	REAL – aka float
-•	TEXT – strings and the like
-```
+
+* BLOB – Binary large object
+* INTEGER – an int
+* NUMERIC – a catchall for nums that are formatted specifically like dates and time
+* REAL – aka float
+* TEXT – strings and the like
+
 
 ## Constraints
 Not data types but important
