@@ -13,10 +13,10 @@ A language designed to handle data “querying databases and storing data” ; �
 SQL is used in web apps and mobile apps, data science, analytics and much more. It’s good at storing lots and lots of data. Think of R.
 
 ## Flat-file Databases
-	David has a large excel file with a lot of data. Normally you’re limited to whatever the program (excel) has to offer. David just wants the raw data, because he is going to manipulate it inside VS Code.
-	David then states that excel and the like are what’s called a “flat file database.” The simplest database in the world is a .csv file.
-	The fastest way to load the data to VS Code is to simply drag the file into the explorer tab, in the utmost far left section.
-	Python is one of the most used Languages for Data science and analytics. Python has native support for .csv files via a package called csv.
+David has a large excel file with a lot of data. Normally you’re limited to whatever the program (excel) has to offer. David just wants the raw data, because he is going to manipulate it inside VS Code.
+David then states that excel and the like are what’s called a “flat file database.” The simplest database in the world is a .csv file.
+The fastest way to load the data to VS Code is to simply drag the file into the explorer tab, in the utmost far left section.
+Python is one of the most used Languages for Data science and analytics. Python has native support for .csv files via a package called csv.
 ```
 # In Python to open a csv file
 
