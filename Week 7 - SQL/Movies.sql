@@ -1,6 +1,6 @@
 --1.sql
 SELECT title FROM movies WHERE year = 2008;
-
+   
 
 --2.sql
 SELECT birth FROM people WHERE name = "Emma Stone";
