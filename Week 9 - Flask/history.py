@@ -1,4 +1,4 @@
-@app.route("/history")
+@app.route("/history") 
 @login_required
 def history():
     """Show history of transactions"""
