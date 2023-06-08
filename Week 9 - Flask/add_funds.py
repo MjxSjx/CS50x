@@ -1,6 +1,6 @@
 @app.route("/add_funds", methods=["GET", "POST"])
 @login_required
-def add_funds():
+def add_funds(): 
     """User add funds"""
     if request.method == "GET":
         return render_template("add.html")
