@@ -1,5 +1,3 @@
-// Recursion - a fn that calls itself
-
 // the old way to build mario-less.c
 
 #include <cs50.h>
