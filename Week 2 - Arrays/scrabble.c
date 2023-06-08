@@ -1,7 +1,3 @@
-// Lab 2 
-
-// Scrabble
-
 #include <ctype.h>
 #include <cs50.h>
 #include <stdio.h>
