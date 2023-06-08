@@ -1,7 +1,3 @@
-// Pset 2 
-
-// Caesar 
-
 // Part 1 Counting Command-Line Arguments: if the user provides no CLAs, or two+, the fn prints "Usage: ./caesar key\n"
 // and then returns 1.If the user provides exactly one CLA, the program should print nothing and simply return 0
 
