@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Portfolio
+{% endblock %}
+{{ get_flashed_messages("Purchased!") }}
+{% block main %}
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th style="width: 25%;">Symbol</th>
+                <th style="width: 25%;">Shares</th>
+                <th style="width: 25%;">Price</th>
+                <th style="width: 25%;">Total Balance Remaining</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for account in database %}
+            <tr>
+                <td>{{ account["symbol"] }}</td>
+                <td>{{ account["shares"] }}</td>
+                <td>{{ account["price"] }}</td>
+                <td ></td>
+            </tr>
+            {% endfor %}
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3" class="text-right"></td>
+                <th class="text-right">
+                    ${{ cash | round(2) }}
+                </th>
+            </tr>
+        </tfoot>
+    </table>
+{% endblock %}
