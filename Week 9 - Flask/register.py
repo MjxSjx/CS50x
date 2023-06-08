@@ -1,6 +1,6 @@
 @app.route("/register", methods=["GET", "POST"])
 def register():
-    """Register user"""
+    """Register user""" 
     if request.method == "GET":
         # Show registration form for GET requests
         return render_template("register.html")
