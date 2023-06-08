@@ -1,6 +1,6 @@
                                         Pendantic breakdown of how Luhn’s Algorithm checksum works 
 
-Checksum of: 343456789012346
+Checksum of: 343456789012346 
 
 Get every other digit, starting with the 2nd to last digit ergo; 4
 4 2 0 8 6 4 4 
