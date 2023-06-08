@@ -8,7 +8,7 @@ This week covered:
 * Password Managers
 * Encryption
 
-* For anyone who missed my final project in week 10. Week 9 was the largest obstacle and deepest learning curve. *
+*For anyone who missed my final project in week 10. Week 9 was the largest obstacle and deepest learning curve.*
 
 * I choose to make a ping pong score tracker based off traditional CRUD fundementals. In truth, I was pressed for time. The website was adequate enough to pass the course!
 
