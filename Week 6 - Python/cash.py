@@ -1,4 +1,4 @@
-from cs50 import get_float
+from cs50 import get_float 
 
 count = 0
 while True:
