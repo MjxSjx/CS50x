@@ -1,6 +1,6 @@
 @app.route("/sell", methods=["GET", "POST"])
 @login_required
-def sell():
+def sell(): 
     """Sell shares of stock"""
     if request.method == "GET":
         user_id = session["user_id"]
