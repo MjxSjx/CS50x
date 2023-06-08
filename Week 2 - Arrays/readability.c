@@ -1,7 +1,3 @@
-// Pset 2 
-
-// Readability
-
 // part 1 Getting User Input: gather user input then print it back out
 
 #include <cs50.h>
