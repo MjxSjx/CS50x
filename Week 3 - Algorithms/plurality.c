@@ -1,5 +1,3 @@
-// plurality
-
 // part 1 todo
 
 // Update candidates names and totals given a new vote(s)
