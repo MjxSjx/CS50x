@@ -16,7 +16,7 @@ Starting today we will be using flask run in the terminal in Python using the fl
 At bare minimum you would need 1 file and a folder:
 *	app.py
 *	templates/ aka HTML files
-*	
+
 ### Uses a single route app.py
 ```
 from flask import Flask, render_template, request
