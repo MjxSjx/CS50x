@@ -9,6 +9,7 @@ This week covered:
 # Final Project
 <details>
 <summary>Ping Pong Score Tracker</summary>
+  
 Video: <https://youtu.be/z5_f7x9Xi3A>
 
 ## Description:
