@@ -1,4 +1,4 @@
-#include <cs50.h>
+#include <cs50.h> 
 #include <stdio.h>
 
 void set_array(int array[4]); // declaration of fn
