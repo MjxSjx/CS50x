@@ -1,5 +1,3 @@
-// Runoff
-
 // part 1 todo
 
 // Record preference if vote is valid
