@@ -1,4 +1,3 @@
-
 // When using for loops that decrement the variables max i value (aka height = ) is used each iteration
 
 // Alternative Template for Right Aligned bricks
