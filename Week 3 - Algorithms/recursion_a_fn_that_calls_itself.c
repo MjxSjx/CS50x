@@ -1,4 +1,4 @@
-// the old way to build mario-less.c
+// the old way to build mario-less.c 
 
 #include <cs50.h>
 #include <stdio.h>
