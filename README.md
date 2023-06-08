@@ -22,3 +22,5 @@ Harvard's CS50x class is a highly regarded computer science course. Known for it
 **Week 9 - Flask**
 
 **Week 10 - Emoji**
+
+**Week 11 - Cybersecurity**
