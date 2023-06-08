@@ -1,4 +1,4 @@
-int get_cents(void)
+int get_cents(void) 
 {
     do
     {
