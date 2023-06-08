@@ -1,4 +1,4 @@
--- Keep a log of any SQL queries you execute as you solve the mystery.
+-- Keep a log of any SQL queries you execute as you solve the mystery. 
 
 --1st The crime scene report  
 SELECT id, description FROM crime_scene_reports   
