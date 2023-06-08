@@ -1,4 +1,4 @@
-// valid triangle
+// valid triangle 
 
 // prompt for 3 real numbers 
 // the fn should output true or false if the #'s provided can produce a triangle
