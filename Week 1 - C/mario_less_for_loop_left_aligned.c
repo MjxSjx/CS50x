@@ -1,4 +1,4 @@
- //Template for Left Aligned bricks in mario-less for loop
+ //Template for Left Aligned bricks in mario-less for loop  
 
 int height = 
 
