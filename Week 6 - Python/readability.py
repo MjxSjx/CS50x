@@ -1,4 +1,4 @@
-count_letter = 0
+count_letter = 0 
 count_word = 1
 count_sentence = 0
 
