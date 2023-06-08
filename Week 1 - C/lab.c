@@ -1,24 +1,3 @@
-
-#include <cs50.h>
-#include <stdio.h> 
-
-int main(void)
-{
-    // TODO: Prompt for start size
-
-    // TODO: Prompt for end size
-
-    // Keep track of number of years
-    
-    // TODO: Calculate number of years until we reach threshold
-    
-    // TODO: Print number of years
-
-}
-
-----------------------------------------------------------------------------------------------------------------------
-
-
 #include <cs50.h>
 #include <stdio.h>
 
