@@ -1,4 +1,3 @@
-
             document.addEventListener('DOMContentLoaded', function() {
               // Part 1 code
               let correct = document.querySelector('.correct');
