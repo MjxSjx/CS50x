@@ -20,7 +20,7 @@ Video: <https://youtu.be/z5_f7x9Xi3A>
 
 This Ping Pong Score Keeper is a web application that allows users to keep track of the score during a ping pong match. Because it is a web application, I used HTML as the noun. All the text and most the spacing is done via HTML tags and some associated HTML attributes. The CSS as I will mention in further detail below is done without a Stylesheet. I used a CSS framework called "Bulma" which i like because the syntax is terse and feels "human". The JavaScript is kept as tight and clean as I could possibly do. I made sure to leave plenty of comments for anyone wanting to understand or add to the code. The user can select the winning score limit from a dropdown menu and use the "+" buttons to increment the score for each player. The application will automatically detect the winner and disable the buttons once the winning score limit has been reached.
 
-## Files.
+## Files:
 
 ### index.html
 This file contains the HTML structure for the web page. It includes the necessary stylesheets and JavaScript file. Comments were left for others to understand it simply.
