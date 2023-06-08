@@ -12,8 +12,10 @@ This week covered:
 
 * I choose to make a ping pong score tracker based off traditional CRUD fundementals. In truth, I was pressed for time. The website was adequate enough to pass the course!
 
-# Ping Pong Score Keeper
-
+# Final Project
+<details>
+<summary>Ping Pong Score Tracker</summary>
+  
 Video: <https://youtu.be/z5_f7x9Xi3A>
 
 ## Description:
@@ -39,3 +41,4 @@ The Ping Pong Score Keeper was designed to be a simple and intuitive web applica
 I choose to use Bulma CSS framework to style the web page because of its flexibility and ease of use. It provides a solid foundation for building the user interface and allows the user to create responsive layouts quickly and simply with terse vocabulary.
 In terms of functionality, I decided to use DOM manipulation to update the score and detect the winner. This allowed me to create a dynamic user experience without the need for complex backend code.
 Overall, given my limited time, I’m proud of the Ping Pong Score Keeper and hope that it will be useful for anyone who needs to keep score during a ping pong match. I know I’ll use it at least once because I am a moderate ping pong enthusiast and play with friends.
+</details>  
