@@ -2,11 +2,12 @@
 
 It’s advised to focus on what’s immediately important when learning coding languages. 
 
-You can’t learn everything all at once. Focus on what’s immediately needed and leave the rest for later. 
+You can’t learn everything all at once. 
+
+Focus on what’s immediately needed and leave the rest for later. 
 
 ### The 3 Pillars of coding
 
- 
 * Correctness - Your code is correct
 * Design - Succinct as possible
 * Style - Following the proper syntax
