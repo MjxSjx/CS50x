@@ -1,14 +1,17 @@
 # Week 1 – C
 
-It’s advised to focus on what’s immediately important when learning coding languages. You can’t learn everything all at once. Focus on what’s immediately needed and leave the rest for later. 
+It’s advised to focus on what’s immediately important when learning coding languages. 
+
+You can’t learn everything all at once. Focus on what’s immediately needed and leave the rest for later. 
+
 ### The 3 Pillars of coding
 
  
-Correctness
-Design
-Style
+* Correctness - Your code is correct
+* Design - Succinct as possible
+* Style - Following the proper syntax
  
-      Your code is correct		   Succinct as possible	  	  Following the proper syntax
+ 		   	  	  
 
 ## The Integrated Development Environment (IDE) aka Text Editor
 Programs/tools that allow coding languages to operate and be understood for what they are Things like Notepad++ or VS Code. The top half of the IDE is where the code is written
