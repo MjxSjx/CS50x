@@ -15,13 +15,17 @@ Focus on what’s immediately needed and leave the rest for later.
  		   	  	  
 
 ## The Integrated Development Environment (IDE) aka Text Editor
-Programs/tools that allow coding languages to operate and be understood for what they are Things like Notepad++ or VS Code. The top half of the IDE is where the code is written
+Programs/tools that allow coding languages to operate and be understood for what they are Things like Notepad++ or VS Code. 
+
+The top half of the IDE is where the code is written
 
  
-.js = files are understood as JavaScript
-.ts = files are understood as TypeScript
-.py = files are understood as Python
-.c = files are understood as C 
+*.js = files are understood as JavaScript
+*.ts = files are understood as TypeScript
+*.py = files are understood as Python
+*.c = files are understood as C 
+* and so on.
+
 ``` 
 #include <stdio.h>                                    printing hello, world in C
 
@@ -30,6 +34,7 @@ int main(void)
   printf("hello, world\n");
 }
 ```
+
 So, how do I run/execute this code written in C? I need an IDE AND to use
 
 ### A complier (most languages don’t use them anymore)
