@@ -121,9 +121,10 @@ text to voice or camera motion are extensions that need to be loaded. They are c
 ```
 
 C
-```
+
 #include <stdio.h>      extensions are loaded at the top of the script
-```
+
+
 std = standard
 
 io = input output
@@ -132,12 +133,15 @@ stdio = standard input output library
 
 
 If I want to use ANY functions. I then ALSO need to create extensions for those functions	
-```
+
 #include <cs50.h>     loads the library for func get_string() and others
+
 #include <stdio.h>    loads the library for ANY standard input/output functions printf() is included in this extension so it can be accessed/used
 
-get_string()is a function Harvard CS50 wrote some time ago. Making it way easier to get inputs from a user. Because the old/normal way is difficult. So Harvard wrote the function titled get_string()BUT the only way it can be used is by using the extension aka library #include <cs50.h> at the top of your script
-```
+get_string()is a function Harvard CS50 wrote some time ago. Making it way easier to get inputs from a user. 
+
+Because the old/normal way is difficult. So Harvard wrote the function titled get_string()BUT the only way it can be used is by using the extension aka library #include <cs50.h> at the top of your script
+
 
 ```
 #include <cs50.h>  
