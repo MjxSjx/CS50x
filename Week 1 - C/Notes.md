@@ -97,15 +97,23 @@ ask (What’s your name?) and wait = a function with a return value in (answer)
 C
 ```
 string answer = get_string("What's your name?\n ");  
+```
 
 string = data type; C needs variables to be defined specifically to what data type they are
+
 answer = variable aka identifier aka label
+
 = means assign to _____. Aka set to _____
+
 get_string() = method with an input
+
 C uses strings so the words need quotes but MUST be in double quotes
+
 \n = create a new line after this syntax, move the cursor down
+
 ; Semi colon at the end to say that line is finished
-```
+
+
 
 Scratch
 ```
@@ -117,8 +125,11 @@ C
 #include <stdio.h>      extensions are loaded at the top of the script
 ```
 std = standard
+
 io = input output
+
 stdio = standard input output library
+
 
 If I want to use ANY functions. I then ALSO need to create extensions for those functions	
 ```
