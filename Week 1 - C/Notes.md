@@ -306,6 +306,7 @@ int main(void)
 }
 ```
 Only the data type long can handle calculations above 2 billion positive or negative
+
 A long is 64 bits and can count to roughly 8 billion 264 
 
 # Conditionals
@@ -344,8 +345,8 @@ if (x < y) {
 }
 ```
 ### $ code points.c more conditionals
-const = variable won’t change no matter what. Program more defensively. 
 
+const = variable won’t change no matter what. Program more defensively. 
 
 in C const variables are CAPITALIZED
 ```
@@ -423,6 +424,7 @@ blue block aka function: say meow
 ```
 C
 while (true) {}
+
 When while is used. The () are a boolean expression, a yes/true no/false question
 ```
 #include <cs50.h>
@@ -457,7 +459,8 @@ while (i <= 3)
 }
 ```
  
-i is the standard variable for counting in C
+* i is the standard variable for counting in C
+* 
 # A for loop
 ```
 int main(void) 
@@ -470,6 +473,7 @@ int main(void)
 meow() is a function I made. 
 
 Right now, it requires the data type void bc it does not return anything
+
 AND it has no input value which also requires the keyword void in the ()
 
 `void meow(void) {…} proper syntax`
@@ -560,7 +564,7 @@ When int main(void) is called:
 4.	BUT use the placeholder format code %.2f giving results 2 decimal slots
 
 
-discount1.c: Returning a value from a fn
+### discount1.c: Returning a value from a fn
 ```
 #include <cs50.h>                  Return value
 #include <stdio.h>
@@ -650,7 +654,9 @@ REPL ????
 ```
 ### Validating User Input do while loop
 Now we want to ask the user how many ? to print
+
 A do while loop runs the code/loop first. THEN checks the condition (boolean expression)
+
 ```
 #include <cs50.h>
 #include <stdio.h>   
@@ -677,12 +683,15 @@ That code will continue to loop until the condition of n = > 1 is met
 ```
 
 So, if the user enters 0, the do while loop continues to run
+
 If the user enters -100, the do while loop still continues to run
 
 Only when the user enters a number > 1 does it stop
 
 The question/statement gets run 1st
+
 THEN the conditional is run
+
 
 ### Validating User Input: Nesting
 
@@ -712,7 +721,7 @@ REPL Size: 3                I’ve made a column of # instead of a brick type sh
 #         
 ```
 
-Putting the new line of code out after the loop gives me a row
+### Putting the new line of code out after the loop gives me a row
 ```
 #include <cs50.h>
 #include <stdio.h>
@@ -734,7 +743,7 @@ int main(void)
 REPL Size: 3               I’ve made a row now of # instead of a brick type shape
 ###
 ```
-Putting it all together
+### Putting it all together
 ```
 int main(void)
 {
@@ -764,11 +773,12 @@ REPL Size: 3   ###           the code runs down 3 times then repeats 2 more time
                ###
 ```
 ### Floating Point Imprecision
-The fact that although billions of numbers can be used; there is still a limit. The computer is unable to represent all possible real numbers; and that’s called Floating Point Imprecision
+The fact that although billions of numbers can be used; there is still a limit. The computer is unable to represent all possible real numbers;
+and that’s called Floating Point Imprecision
 
-float 32bits = a number with up to 6 decimal points at the end aka 1.654321
+* float 32bits = a number with up to 6 decimal points at the end aka 1.654321
 
-double 64bits = a number with MORE numbers after the decimal point aka 1.795864555435431
+* double 64bits = a number with MORE numbers after the decimal point aka 1.795864555435431
 
 ```
 #include <cs50.h>
@@ -793,7 +803,7 @@ int main(void)
 ```
 
 ### Integer Overflow
-In C when dividing an integer by an integer, you can only get back an integer, floating point values don’t work; everything after the decimal gets thrown away aka Truncation
+In C when dividing an integer by an integer, you can only get back an integer, floating point values don’t work; everything after the decimal gets thrown away aka *Truncation*
 ```
 int main(void)   
 {
