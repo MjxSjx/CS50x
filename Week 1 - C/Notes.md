@@ -81,8 +81,11 @@ int main(void)
 }
 ```
 f stands for formatted 
+
 C uses strings so the words need quotes but MUST be in double quotes
+
 \n = creates a new line after this syntax, moves the cursor down
+
 ; Semi colon at the end to say that line is finished
 
 
