@@ -21,9 +21,13 @@ The top half of the IDE is where the code is written
 
  
 *.js = files are understood as JavaScript
+
 *.ts = files are understood as TypeScript
+
 *.py = files are understood as Python
+
 *.c = files are understood as C 
+
 * and so on.
 
 ``` 
