@@ -280,11 +280,15 @@ This works because the variable counter is already established
 
 ### Calculator.c
 The keyword code makes a new file automatically 
-`code calculator.c                                a new C file has been created` 
+
 8 bits = can count to 256 28
+
 32 bits can count to roughly 4 billion 232
+
 An int is 32 bits
+
 BUT because it counts equal negative numbers, anything beyond 2 billion won’t work 
+
 ```
 #include <cs50.h>
 #include <stdio.h>
