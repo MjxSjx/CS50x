@@ -99,19 +99,19 @@ C
 string answer = get_string("What's your name?\n ");  
 ```
 
-string = data type; C needs variables to be defined specifically to what data type they are
+- string = data type; C needs variables to be defined specifically to what data type they are
 
-answer = variable aka identifier aka label
+- answer = variable aka identifier aka label
 
-= means assign to _____. Aka set to _____
+- = means assign to _____. Aka set to _____
 
-get_string() = method with an input
+- get_string() = method with an input
 
-C uses strings so the words need quotes but MUST be in double quotes
+- C uses strings so the words need quotes but MUST be in double quotes
 
-\n = create a new line after this syntax, move the cursor down
+- \n = create a new line after this syntax, move the cursor down
 
-; Semi colon at the end to say that line is finished
+- ; Semi colon at the end to say that line is finished
 
 
 
