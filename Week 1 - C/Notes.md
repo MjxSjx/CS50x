@@ -460,8 +460,8 @@ while (i <= 3)
 ```
  
 * i is the standard variable for counting in C
-* 
-# A for loop
+
+# for loop
 ```
 int main(void) 
 {           
