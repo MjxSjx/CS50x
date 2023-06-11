@@ -44,11 +44,16 @@ REPL: hello, world
 
 So, how do I run/execute this code written in C? I need an IDE AND to use
 
-### A complier (most languages don’t use them anymore)
+## A complier (most languages don’t use them anymore)
+
 With C, I need to convert the source code into another language using a complier in the CLI
 
-Source code  □ complier  machine code
-                                          The C syntax       algorithm        the binary 
+Source code goes to the complier which turns that into machine code
+```
+C syntax       
+an algorithm        
+the binary 
+```
 ## Algorithm a step-by-step set of instructions for solving a problem
 
 ### The Command Line Interface (CLI)
