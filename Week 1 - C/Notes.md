@@ -33,12 +33,13 @@ The top half of the IDE is where the code is written
 * and so on.
 
 ``` 
-#include <stdio.h>                                    printing hello, world in C
+#include <stdio.h>                                    
 
 int main(void)
 {
   printf("hello, world\n");
 }
+REPL: hello, world
 ```
 
 So, how do I run/execute this code written in C? I need an IDE AND to use
